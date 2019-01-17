@@ -29,3 +29,7 @@ NB: The output files are written to the folder "Output Folder" in the same locat
 2- Make sure the $cascPath$ variable leads to the file "haarcascade_frontalface_default.xml"
 3- Changes the intensity to change the blur intensity. (0-> No blur, with blur increasing as number increases.)
 NB: Output files are not written to any folder, only displayed.
+
+## Sample Outputs of current Version:
+![Output](https://github.com/wmustafaAwad/FaceBlur/blob/master/Output%20Folder/Rami%20Malek.jpg) ![Input](https://github.com/wmustafaAwad/FaceBlur/blob/master/IMDB-Celeb-Faces/Rami%20Malek.jpg)
+All other inputs are in the folder: 'IMDB Celeb Faces'. All other outputs are in the 'Output Folder'.
