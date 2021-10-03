@@ -8,8 +8,10 @@ Takes as input the path of an image (in face_detect_tester.py) or a path full of
 If many faces are there, only the largest face will be blurred. If no faces are there, nothing gets blurred. The output image is a BW version of the input Image.
 
 ## Later Versions:
-The current version outputs a BW version of the images, with the blur using a 1-0 mask. Later versions should deal with RGB-colored images and use Gaussian mask on the blur effect.
-Also, the same methodology will be applied to videos using FFmpeg. So, stay tuned.
+The current version outputs a BW version of the images, with the blur using a 1-0 mask. Later versions should:
+* output RGB-colored images
+* use Gaussian mask on the blur effect.
+* same methodology will be applied to videos using FFmpeg. Providing options of: Either producing a mask video to be used in any other video editing tool OR the video itself with the face blurred. 
 
 ## Tools used:
 - OpenCV & Numpy in Python
@@ -31,5 +33,5 @@ NB: The output files are written to the folder "Output Folder" in the same locat
 NB: Output files are not written to any folder, only displayed.
 
 ## Sample Outputs of current Version:
-![Output](https://github.com/wmustafaAwad/FaceBlur/blob/master/Output%20Folder/Rami%20Malek.jpg) ![Input](https://github.com/wmustafaAwad/FaceBlur/blob/master/IMDB-Celeb-Faces/Rami%20Malek.jpg)
+![Output](https://github.com/wmustafaAwad/FaceBlur/blob/master/Output%20Folder/Rami%20Malek.jpg) ![Input](https://github.com/wmustafaAwad/FaceBlur/blob/master/IMDB-Celeb-Faces/Rami%20Malek.jpg) </br>
 All other inputs are in the folder: 'IMDB Celeb Faces'. All other outputs are in the 'Output Folder'.
